@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Showcase Project</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A simple, well-structured HTML page demonstrating JavaScript functionality with variables, conditionals, functions, loops, and DOM interactions.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, web development, project, example, DOM, loops, functions">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.example.com/index.html">
+
+    <!-- Linking to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Inter font from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+
+</head>
+<body class="bg-gray-100 text-gray-800 antialiased p-4 sm:p-8">
+
+    <!-- Header with semantic tags and logical hierarchy -->
+    <header class="text-center my-8">
+        <h1>JavaScript & DOM Interaction Project</h1>
+        <p class="subtitle">A foundation for a better web.</p>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container mx-auto p-6 bg-white rounded-xl shadow-lg">
+
+        <!-- Article section demonstrating structured content -->
+        <article class="prose max-w-none">
+            <h2>Why Semantic HTML Matters</h2>
+            <p>Semantic HTML elements provide meaning to web content, making it crucial for accessibility and search engine optimization (SEO).</p>
+
+            <section class="my-6">
+                <h3>Accessibility Benefits</h3>
+                <p>For users relying on screen readers or other assistive technologies, semantic tags provide a roadmap of the page.</p>
+                <div role="list" aria-label="Examples of Semantic Tags">
+                    <p class="font-bold mt-4">Key Tags:</p>
+                    <ul>
+                        <li><code>&lt;nav&gt;</code> for navigation links.</li>
+                        <li><code>&lt;main&gt;</code> for the primary content of the document.</li>
+                        <li><code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> for images with captions.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="my-6">
+                <h3>JavaScript Interactions</h3>
+                <p>This section demonstrates how JavaScript can interact with the Document Object Model (DOM) to create dynamic content.</p>
+                
+                <!-- This element will be updated by JavaScript -->
+                <div id="dynamicContent" class="dynamic-box">
+                    <p>Click the button below to see the content change!</p>
+                </div>
+                
+                <!-- This button will trigger a JavaScript function -->
+                <button id="actionButton" class="btn-primary">Click Me!</button>
+                
+                <!-- This element will show loop results -->
+                <div id="loopResults" class="bg-gray-100 p-4 rounded-lg mt-4">
+                    <h4 class="text-lg font-bold mb-2">Loop Output:</h4>
+                    <p id="loopOutput"></p>
+                </div>
+                
+            </section>
+        </article>
+
+    </main>
+
+    <!-- Footer for copyright and final links -->
+    <footer class="text-center mt-8 text-sm text-gray-500">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>Built with semantic HTML5 for better accessibility and SEO.</p>
+    </footer>
+    
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
